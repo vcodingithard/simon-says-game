@@ -59,13 +59,13 @@ function check(idx){
         if(userseq.length==gameseq.length){
             setTimeout(function(){
                 level();
-            },750);
+            },1000);
         }
     }else{
         body.classList.add("redbg");
         setTimeout(()=>{
         body.classList.remove("redbg");
-        },750);
+        },800);
         score.push(levelup);
         let max=findLargestElement(score);
         heading.innerHTML=`Game over. Your highest score is ${max}.<BR>Click on the restart button to start the game`;
