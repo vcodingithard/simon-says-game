@@ -93,7 +93,7 @@ for(let btn of allbtns){
         btn.classList.add("userflash");
         setTimeout(()=>{
             btn.classList.remove("userflash");
-        },500);
+        },200);
         
         userseq.push(btn.getAttribute("ID"));
         console.log(userseq);
