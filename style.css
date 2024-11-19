@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 1rem;
+    
+}
+.line-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.line-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    height: 7.5rem;
+    width: 7.5rem;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+.yellow{
+    background-color: #f99b45;
+}
+button{
+    height: 2rem;
+    width: 4rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    color: white;
+    background-color: red;
+    margin-top: 1rem;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: yellow;
+}
+.redbg{
+    background-color: red;
+}
